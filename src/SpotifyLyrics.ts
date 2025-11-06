@@ -1,7 +1,15 @@
 import crypto from "crypto";
+<<<<<<< Updated upstream
 import { IAccessToken, ISecretKey, IServerTimeParams, SongLyricsData } from "spotify-lyrics-api";
+=======
+import  {
+    SongLyricsData,
+    IAccessToken,
+    ISecretKey,
+    IServerTimeParams,
+} from "./types.js";
+>>>>>>> Stashed changes
 export default class SpotifyLyricsApi {
-
     /**
      * Latest Spotify Secrets
     */

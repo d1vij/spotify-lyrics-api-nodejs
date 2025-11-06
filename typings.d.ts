@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 declare module "spotify-lyrics-api" {
   export interface ISecretKey {
     version: string;
@@ -68,3 +69,7 @@ declare module "spotify-lyrics-api" {
     public getLyricsFromURL(url: string): Promise<Lyrics>;
   }
 }
+=======
+/// <reference path="./dist/SpotifyLyrics.d.ts" />
+/// <reference path="./dist/types.d.ts" />
+>>>>>>> Stashed changes
